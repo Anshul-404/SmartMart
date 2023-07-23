@@ -15,7 +15,6 @@ grand resource,connect,dba to grocery
 cd path/to/oracle/bin/
 imp grocery/grocery
 
-
 Import data only (yes/no): no > no
 
 Import file: EXPDAT.DMP > smartmart.dmp
