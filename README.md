@@ -1,11 +1,21 @@
+IMPORTING DATABASE:
+--------------------
+
+-> Use the following commands on Oracle SQL -
+
+```
 create user grocery identified by grocery
 grand resource,connect,dba to grocery
+```
 
+-> Use the following commands on Command Prompt (Administrator) -
+
+
+```
 cd path/to/oracle/bin/
 imp grocery/grocery
 
 
-```
 Import data only (yes/no): no > no
 
 Import file: EXPDAT.DMP > smartmart.dmp
@@ -21,6 +31,7 @@ import server uses AL32UTF8 character set (possible charset conversion)
 List contents of import file only (yes/no): no > no
 
 Ignore create error due to object existence (yes/no): no > no
+```
 
 Import grants (yes/no): yes > yes
 
