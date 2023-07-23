@@ -2,6 +2,7 @@ IMPORTING DATABASE:
 --------------------
 
 -> Use the following commands on Oracle SQL -
+-> Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
 
 ```
 create user grocery identified by grocery
