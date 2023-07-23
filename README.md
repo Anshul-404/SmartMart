@@ -7,7 +7,7 @@ IMPORTING DATABASE:
 
 ```
 create user grocery identified by grocery
-grand resource,connect,dba to grocery
+grant resource,connect,dba to grocery
 ```
 
 -> Use the following commands on Command Prompt (Administrator) -
