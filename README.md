@@ -39,3 +39,29 @@ Import table data (yes/no): yes > yes
 
 Import entire export file (yes/no): no > yes
 ```
+
+MANAGER DETAILS:
+--------------------
+
+<details>
+  <summary>Default Credentials For Manager Login</summary>
+  <p>User ID : anshul@2002</p>
+  <p>Password : password</p>
+</details>
+
+-> To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
+
+-> Run these commands on Oracle SQL -
+
+```
+connect grocery/grocery
+insert into users values ('your@userid', 'E_EMPLOYEEID' ,'YOUR_HASH', 'Manager', 'Username');
+commit;
+```
+-> To Remove Default Credentials, run these commands on Oracle SQL -
+
+```
+connect grocery/grocery
+delete from users where USERID = 'anshul@2002';
+commit;
+```
