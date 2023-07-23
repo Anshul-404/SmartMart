@@ -30,7 +30,6 @@ import server uses AL32UTF8 character set (possible charset conversion)
 List contents of import file only (yes/no): no > no
 
 Ignore create error due to object existence (yes/no): no > no
-```
 
 Import grants (yes/no): yes > yes
 
