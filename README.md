@@ -79,11 +79,11 @@ Configuring Database
 ### Manager Details: ###
 
 
-    <details>
+   <details>
       <summary>Default Credentials For Manager Login</summary>
       <p>User ID : anshul@2002</p>
       <p>Password : password</p>
-    </details>
+   </details>
 
 * To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
 
