@@ -26,7 +26,7 @@ Getting Started
 
 Prerequisites:
    * Java Development Kit (JDK)
-   * MySQL Database
+   * OracleSQL Database
 
 Installation:
    * Clone the repository from GitHub:
