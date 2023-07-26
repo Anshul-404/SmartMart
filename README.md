@@ -12,41 +12,41 @@ Manager Panel:
   * View orders
 
 Receptionist Panel:
-    Billing section for handling customer purchases
-    View orders processed by receptionist
+   * Billing section for handling customer purchases
+   * View orders processed by receptionist
 
 Barcode Generation:
-    SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
+   * SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
 
 Password Encryption:
-    The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
+   * The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
 
 Getting Started
 ---------------
 
 Prerequisites:
-    Java Development Kit (JDK)
-    MySQL Database
+   * Java Development Kit (JDK)
+   * MySQL Database
 
 Installation:
-    Clone the repository from GitHub:
+   * Clone the repository from GitHub:
     ```
-    git clone https://github.com/yourusername/smartmart.git
+    git clone https://github.com/Anshul-404/smartmart.git
     ```
 
 Configuring Database
 --------------------
 
-Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
+* Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
     
-Use the following commands on Oracle SQL
+* Use the following commands on Oracle SQL
 
     ```
     create user grocery identified by grocery
     grant resource,connect,dba to grocery
     ```
 
-Use the following commands on Command Prompt (Administrator) -
+* Use the following commands on Command Prompt (Administrator) -
 
 
     ```
@@ -76,7 +76,7 @@ Use the following commands on Command Prompt (Administrator) -
     Import entire export file (yes/no): no > yes
     ```
 
-Manager Details:
+### Manager Details: ###
 
 
     <details>
@@ -85,9 +85,9 @@ Manager Details:
       <p>Password : password</p>
     </details>
 
-To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
+* To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
 
-Run these commands on Oracle SQL -
+* Run these commands on Oracle SQL -
 
     ```
     connect grocery/grocery
@@ -95,7 +95,7 @@ Run these commands on Oracle SQL -
     commit;
     ```
 
-    To Remove Default Credentials, run these commands on Oracle SQL -
+* To Remove Default Credentials, run these commands on Oracle SQL -
 
     ```
     connect grocery/grocery
@@ -106,10 +106,10 @@ Run these commands on Oracle SQL -
 Usage:
 ------
 
-Run the application using the following command:
+* Run the application using the following command:
 
         java -jar SmartMart.jar
 
-Generated Barcodes:
+* Generated Barcodes:
     All the generated barcodes are stored in the "Barcodes" folder within the application directory.
 
