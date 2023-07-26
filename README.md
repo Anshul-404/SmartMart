@@ -1,4 +1,5 @@
 SmartMart Application
+----------------------
 
 The SmartMart Application is a Java desktop solution designed for efficient inventory control and streamlined data management. It provides an easy-to-use interface for managing stocks, employees, and generating bills for a seamless shopping experience.
 Features
