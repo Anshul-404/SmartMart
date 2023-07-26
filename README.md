@@ -1,3 +1,62 @@
+SmartMart Application
+
+The SmartMart Application is a Java desktop solution designed for efficient inventory control and streamlined data management. It provides an easy-to-use interface for managing stocks, employees, and generating bills for a seamless shopping experience.
+Features
+
+    Manager Panel:
+        Add and manage stocks
+        Manage employees
+        View orders
+
+    Receptionist Panel:
+        Billing section for handling customer purchases
+        View orders processed by receptionist
+
+    Barcode Generation:
+        SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
+
+    Password Encryption:
+        The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
+
+Getting Started
+
+    Prerequisites:
+        Java Development Kit (JDK)
+        MySQL Database
+
+    Installation:
+        Clone the repository from GitHub:
+
+        bash
+
+    git clone https://github.com/yourusername/smartmart.git
+
+    Configure the database connection in src/config.properties.
+
+Usage:
+
+    Run the application using the following command:
+
+        java -jar SmartMart.jar
+
+    Generated Barcodes:
+        All the generated barcodes are stored in the "Barcodes" folder within the application directory.
+
+    User Guide:
+        The SmartMart User Guide provides detailed instructions on using the application efficiently. Refer to UserGuide.pdf.
+
+Contributing
+
+We welcome contributions from the community. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+License
+
+This project is licensed under the MIT License.
+Acknowledgments
+
+Special thanks to all the contributors and the open-source community for making this project possible.
+
+
+
 IMPORTING DATABASE:
 --------------------
 
