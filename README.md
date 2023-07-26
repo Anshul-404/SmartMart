@@ -2,48 +2,50 @@ SmartMart Application
 ----------------------
 
 The SmartMart Application is a Java desktop solution designed for efficient inventory control and streamlined data management. It provides an easy-to-use interface for managing stocks, employees, and generating bills for a seamless shopping experience.
+
 Features
+--------
+Manager Panel:
+    Add and manage stocks
+    Manage employees
+    View orders
 
-    Manager Panel:
-        Add and manage stocks
-        Manage employees
-        View orders
+Receptionist Panel:
+    Billing section for handling customer purchases
+    View orders processed by receptionist
 
-    Receptionist Panel:
-        Billing section for handling customer purchases
-        View orders processed by receptionist
+Barcode Generation:
+    SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
 
-    Barcode Generation:
-        SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
-
-    Password Encryption:
-        The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
+Password Encryption:
+    The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
 
 Getting Started
+---------------
 
-    Prerequisites:
-        Java Development Kit (JDK)
-        MySQL Database
+Prerequisites:
+    Java Development Kit (JDK)
+    MySQL Database
 
-    Installation:
-        Clone the repository from GitHub:
-
-        ```
-        git clone https://github.com/yourusername/smartmart.git
-        ```
+Installation:
+    Clone the repository from GitHub:
+    ```
+    git clone https://github.com/yourusername/smartmart.git
+    ```
 
 Configuring Database
+--------------------
 
-    Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
+Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
     
-    Use the following commands on Oracle SQL
+Use the following commands on Oracle SQL
 
     ```
     create user grocery identified by grocery
     grant resource,connect,dba to grocery
     ```
 
-    Use the following commands on Command Prompt (Administrator) -
+Use the following commands on Command Prompt (Administrator) -
 
 
     ```
@@ -82,9 +84,9 @@ Manager Details:
       <p>Password : password</p>
     </details>
 
-    To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
+To create a new manager user, first generate a MD5 hash of your password [here](https://codebeautify.org/md5-hash-generator).
 
-    Run these commands on Oracle SQL -
+Run these commands on Oracle SQL -
 
     ```
     connect grocery/grocery
@@ -101,11 +103,12 @@ Manager Details:
     ```
 
 Usage:
+------
 
-    Run the application using the following command:
+Run the application using the following command:
 
         java -jar SmartMart.jar
 
-    Generated Barcodes:
-        All the generated barcodes are stored in the "Barcodes" folder within the application directory.
+Generated Barcodes:
+    All the generated barcodes are stored in the "Barcodes" folder within the application directory.
 
