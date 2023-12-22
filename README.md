@@ -15,13 +15,13 @@ Manager Panel:
 
 Receptionist Panel:
    * Billing section for handling customer purchases
-   * View orders processed by receptionist
+   * View orders processed by a receptionist
 
 Barcode Generation:
    * SmartMart offers an automatic barcode generation feature for scanned products, simplifying inventory management.
 
 Password Encryption:
-   * The application ensures enhanced data security by incorporating password encryption using the MD5 algorithm.
+   * The application ensures enhanced data security by incorporating password encryption using the PBKDF2 algorithm.
 
 Getting Started
 ---------------
@@ -39,7 +39,7 @@ Installation:
 Configuring Database
 --------------------
 
-* Copy "smartmart.dmp" file to bin folder of your system's Oracle directory.
+* Copy "smartmart.dmp" file to the bin folder of your system's Oracle directory.
     
 * Use the following commands on Oracle SQL
 
