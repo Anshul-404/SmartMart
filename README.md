@@ -89,11 +89,11 @@ Configuring Database
 
 * To create a new manager user, first generate a PBKDF2 hash of your password [here](https://8gwifi.org/pbkdf.jsp).
 * Choose options as -
- - Master Password: YourPassword
- - Salt: Any preferred Salt or leave empty for random
- - Iterations: 10000
- - dkLen: 256
- - PBE Ciphers: PBKDF2WithHmacSHA256
+   - Master Password: YourPassword
+   - Salt: Any preferred Salt or leave empty for random
+   - Iterations: 10000
+   - dkLen: 256
+   - PBE Ciphers: PBKDF2WithHmacSHA256
 * Finally copy the PBKDF2 derived hash
 
 * Run these commands on Oracle SQL -
